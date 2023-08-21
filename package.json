@@ -1,17 +1,20 @@
 {
-  "name": "flightsandsearch",
+  "name": "flights-and-search-service",
   "version": "1.0.0",
-  "description": "Micro service for handling FLIGHT CRUD",
+  "description": "/\r -src/\r     index.js //Server\r     models/\r     controllers/\r     middlewares/\r     services/\r     utils/\r     config/\r -test/[later]",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon src/index"
+    "dev": "npx nodemon src/index.js"
   },
-  "author": "Pradyumn",
+  "author": "aapradyumn",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
   }
 }
